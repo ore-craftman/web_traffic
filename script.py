@@ -37,4 +37,5 @@ while x<500:
     # time.sleep(5)
     x += 1
 
+time.sleep(86400)
 
