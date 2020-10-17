@@ -31,10 +31,6 @@ while x<500:
     pop_up.click()
     time.sleep(2)
 
-    #Click on Google Ads
-    # ad_element = web.find_element_by_class_name('ns-94jwp-e-0 x-layout GoogleActiveViewElement')
-    # ad_element.click()
-    # time.sleep(5)
     x += 1
 
 time.sleep(86400)
