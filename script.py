@@ -10,8 +10,6 @@ while x<500:
     time.sleep(2)
 
     #Search for term
-    # search_bar = web.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input')
-    # search_bar.send_keys('royalng .com')
     search_bar = web.find_element_by_css_selector('input[name=q]')
     search_bar.send_keys('royalng .com')
     search_bar.submit()
